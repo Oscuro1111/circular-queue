@@ -1,3 +1,5 @@
+#ifndef __CQ__MPM__
+#define __CQ__MPM__
 typedef struct queue__node
 {
 	void *element;
@@ -22,3 +24,4 @@ void *cq_dqueue(queue *cq);
 queue *allocate_queue();
 
 void cq_free(queue *cq);
+#endif
