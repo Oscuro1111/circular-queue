@@ -1,6 +1,6 @@
 VERSION=1.0
 MAJOR_VERSION=1
-LIB=libcirculer_queue.so
+LIB=libcircular_queue.so
 
 build: 
 	@cd objs&&make build&&cd ..
